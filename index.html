@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--HEADER-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Andre Wirawan</a>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list" id="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Programming Skills</a></li>
+                        <li class="nav__item"><a href="#fskills" class="nav__link">Framework Skills</a></li>
+                        <li class="nav__item"><a href="#project" class="nav__link">My Project</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class=''></i>
+                </div>
+                <span class="hamburger__menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776</span>
+                <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="#home">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#skills">Programming Skills</a>
+                  <a href="#fskills">Frameproject Skills</a>
+                  <a href="#project">My Project</a>
+                  <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--HOME-->
+            <article class="home bd-grid panel" id="home" data-color="white">
+                <div class="home__data">
+                    <aside>
+                        <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Andre wirawan</span><br> Software Enginer</h1>
+                    </aside>
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/andre-wirawan-192269164/" class="home__social-icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/andre.wirawan88/" class="home__social-icon"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/andrewirawanwijaya/" class="home__social-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+                <aside id="profile">
+                    <div class="home__img" id="#home__img">
+                        <a href="#">    
+                        <img src="assets/img/andre_wirawan.jpg" alt="">
+                        </a>
+                    </div>
+                </aside>
+            </article>
+
+            <!--ABOUT-->
+            <article class="about article panel" id="about" data-color="silver">
+                <h2 class="article-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/andre.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">"Never give up on what you really want to do. The person with big dreams is more powerful than the one with all the facts." – <em>Quate by Albert Einstein</em></h2>
+                        <p class="about__text">I am <b>Andre Wirawan</b> born in October 1994 in Surabaya, my dream of becoming a Professional Programmer, Expert in Application Security, and becoming a Startup Developer.</br></br>
+                        I graduated from the Department of Informatics undergraduate program at the Faculty of Engineering, <b>University of Surabaya</b> in 2017 and am currently working at Maspion Bank as a permanent employee of Internal Information Technology Audit.</br></br>
+                        My strengths, have an honest attitude, polite, willingness to learn, responsible, able to work in teams, never give up, excited, able to work under pressure, and mastered several computer programming languages.</p>
+                    </div>                                   
+                </div>
+            </article>
+
+            <!-- P SKILLS -->
+            <article class="skills article panel" id="skills" data-color="green">
+                <h2 class="article-title">Programmer Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <p class="skills__text">Some Programming Language skills that I have mastered :</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='skills__icon'></i>
+                                <span class="skills__name">PHP & JAVASCRIPT Programming Language</span>
+                            </div>
+                            <div class="skills__bar skills__PHP">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='skills__icon'></i>
+                                <span class="skills__name">C# & C++ & VB Programming Language</span>
+                            </div>
+                            <div class="skills__bar skills__C">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='skills__icon' ></i>
+                                <span class="skills__name">JAVA & KOTLIN Programming Language</span>
+                            </div>
+                            <div class="skills__bar skills__JK">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='skills__icon'></i>
+                                <span class="skills__name">Python Programming Language</span>
+                            </div>
+                            <div class="skills__bar skills__Python">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/display1.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </article>
+
+            <!--F SKILLS-->
+            <article class="fskills article panel" id="fskills" data-color="sea">
+                <h2 class="article-title">Framework Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <p class="skills__text">Some Programming Framework skills that I have mastered:</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='skills__icon'></i>
+                                <span class="skills__name">Framework CI</span>
+                            </div>
+                            <div class="skills__bar skills__CI">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='skills__icon'></i>
+                                <span class="skills__name">Framework laravel</span>
+                            </div>
+                            <div class="skills__bar skills__laravel">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='skills__icon' ></i>
+                                <span class="skills__name">Framework Unity</span>
+                            </div>
+                            <div class="skills__bar skills__unity">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='skills__icon'></i>
+                                <span class="skills__name">Framework React Native</span>
+                            </div>
+                            <div class="skills__bar skills__reactn">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">35%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>              
+                        <img src="assets/img/display2.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </article>
+
+            <!-- PROJECT -->
+            <article class="project article panel" id="project" data-color="yellow">
+                <h2 class="article-title">My Project</h2>
+
+                <div class="project__container bd-grid">
+                    <div class="project__img">
+                        <img src="assets/img/project1.png" alt="Dynamic Website Resume/CV Using Framework Laravel" title="Dynamic Website Resume/CV Using Framework Laravel">
+                    </div>
+                    <div class="project__img">
+                        <img src="assets/img/project2.png" alt="Game 2D Aircraft Using Unity" title="Game 2D Aircraft Using Unity">
+                    </div>
+                    <div class="project__img">
+                        <img src="assets/img/project3.png" alt="Game 3D First Person Shooter Using Unity" title="Game 3D First Person Shooter Using Unity">
+                    </div>
+                    <div class="project__img">
+                        <img src="assets/img/project4.png" alt="Portal Website Sports Field Rentals Using Framework Codeigniter" title="Portal Website Sports Field Rentals Using Framework Codeigniter">
+                    </div>
+                    <div class="project__img">
+                        <img src="assets/img/project5.png" alt="Portal Website Sports Field Rentals Using Framework Codeigniter" title="Portal Website Sports Field Rentals Using Framework Codeigniter">
+                    </div>
+                    <div class="project__img">
+                        <img src="assets/img/project6.png" alt="Portal Website Sports Field Rentals Using Framework Codeigniter" title="Portal Website Sports Field Rentals Using Framework Codeigniter">
+                    </div>
+                </div>
+            </article>
+
+            <!-- CONTACT -->
+            <article class="contact article panel" id="contact" data-color="orange">
+                <h2 class="article-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" name="name" placeholder="Name" class="contact__input">
+                        <input type="mail" name="email" placeholder="Email" class="contact__input">
+                        <textarea name="message" placeholder="Message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </article>
+        </main>
+
+        <!--FOOTER-->
+        <footer class="footer">
+            <p class="footer__title">Andre Wirawan</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/andre-wirawan-192269164/" class="footer__icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/andre.wirawan88/" class="footer__icon"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/andrewirawanwijaya/" class="footer__icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <p>&#169; Juli 2020 copyright all right reserved</p>
+        </footer>
+
+        <!-- MAIN JS -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
